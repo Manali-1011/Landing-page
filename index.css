@@ -193,3 +193,24 @@ section h4{
     color:black;
     text-decoration: none;
 }
+
+/* Fix footer + back-to-top for forced desktop layout */
+.top,
+.bottom {
+    width: 100vw !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0;
+}
+/* Force all poster/banner sections to fill full phone width */
+.banner,
+.sale {
+    width: 100vw !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden;
+    background-size: cover !important;
+    background-position: center !important;
+}
+    
